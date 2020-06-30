@@ -227,7 +227,8 @@ background-position: 24px -335px;
 	background-color: #191919;
 	padding: 20px 0 40px;
 }
-.main_cats h2 {
+.main_cats h2,
+h2.art_header  {
 	text-transform: uppercase;
 	color: #C9C9C9;
 	font-family: "BebasRegular";
@@ -240,7 +241,8 @@ background-position: 24px -335px;
 .main_cats h2 span {
 	color: #D12F22;
 }
-section h2 {
+section h2,
+article h2 {
 	position: relative;
 }
 .s_black h2::before {
@@ -376,4 +378,52 @@ body .mc_wrap .mc_item_wrap > ul {
 .mc_button_w {
 	text-align: center;
 	margin-top: 30px;
+}
+article.content {
+	background-color: #E9E9E9;
+}
+article h2.art_header::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-image: url(../img/art_header_img.png);
+    top: 18px;
+    margin-left: -75px;
+}
+article h2.art_header::after {
+	background-position: -50px 0;
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-image: url(../img/art_header_img.png);
+    top: 18px;
+    margin-left: 21px;
+}
+article .art_header {
+	color: #050505;
+	margin-bottom: 10px;
+
+}
+p.h_descr {
+	max-width: 790px;
+	text-align: center;
+	margin: auto;
+	margin-top: 0;
+	color: #050505;
+}
+.home_items {
+	background-color: #D6D6D6;
+	padding: 30px 0;
+	margin-top: 40px;
+}
+.hi_item {
+	color: #050505;
+	text-align: center;
+	font-size: 14px;
+}
+.hi_item img {
+	max-width: 100%;
+	border-top: #AC160A 8px solid;
 }
