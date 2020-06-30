@@ -415,15 +415,60 @@ p.h_descr {
 }
 .home_items {
 	background-color: #D6D6D6;
-	padding: 30px 0;
+	padding: 40px 0;
 	margin-top: 40px;
 }
 .hi_item {
 	color: #050505;
 	text-align: center;
 	font-size: 14px;
+	margin-bottom: 50px;
 }
 .hi_item img {
 	max-width: 100%;
 	border-top: #AC160A 8px solid;
+}
+.s_bottom img {
+	max-width: 90%;
+	bottom: 0;
+}
+.s_bottom {
+	padding-top: 32px;
+}
+.sb_header.button_cont {
+    text-align: right;
+}
+.sb_header h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "BebasRegular";
+	font-size: 36px;
+}
+.sb_content {
+	margin-top: 30px;
+}
+footer {
+	background-color: #2a2a2a;
+	color: #fff;
+	padding: 28px 0 35px;
+	font-family: "BebasBold";
+	font-size: 20px;
+}
+footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+footer li {
+	float: left;
+}
+footer a {
+	padding: 0 10px;
+}
+footer a:hover {
+	text-decoration: none;
 }
