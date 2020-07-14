@@ -36,10 +36,21 @@ section
 		font-size: 50px
 		line-height: 56px
 		margin-bottom: 50px
+		font-family: "CleanvertisingLight", sans-serif
+		text-align: center
+		margin-top: 0
+		font-weight: normal
+
+p .strong
+	font-family: "RobotoBold", sans-serif
+	font-weight: normal
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
 	color: red
+	box-shadow: $red-color 0 0 0 3px
+	border-color: $red-color
+
 body input:required:valid,
 body textarea:required:valid
 	color: green
@@ -210,3 +221,59 @@ a.button
 			line-height: 17px
 		strong
 			line-height: 36px
+
+.profi_left
+	color: $red-color
+	i
+		font-size: 100px
+		line-height: 124px
+
+.profi_right
+	h3
+		display: inline-block
+		margin: 0
+		color: $red-color
+		font-size: 28px
+	p
+		margin-top: 5px
+
+form
+	background-color: #F7F7F7
+	padding: 25px 30px
+	border: $green-color 5px solid
+	border-radius: 5px
+	h2
+		text-transform: uppercase
+		margin-top: 0
+		font-family: "RobotoBold", sans-serif
+		font-size: 22px
+		color: $text-color
+		line-height: 22px
+	label
+		display: block
+		margin-bottom: 10px
+		color: #666
+		font-size: 14px
+	input,
+	select
+		display: block
+		line-height: 40px
+		height: 40px
+		border: #D9D9D9 1px solid
+		box-shadow: 0 0 20px rgba(0,0,0,.06) inset
+		width: 100%
+		text-indent: 10px
+		font-size: 20px
+		&:focus
+			box-shadow: $green-color 0 0 0 3px
+			border-radius: 3px
+			border-color: $green-color
+	select
+		background-image: url(../img/down.svg)
+		background-position: right center
+		background-repeat: no-repeat
+	.button_wrap
+		text-align: center
+		margin: 30px 0 10px
+
+		
