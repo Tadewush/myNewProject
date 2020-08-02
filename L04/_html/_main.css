@@ -70,7 +70,7 @@ body {
 }
 
 .box_back h4 {
-	display: inline;
+	display: inline-block;
 	font-size: 14px;
 	font-family: "OpenSansBold", sans-serif;
 }
@@ -138,7 +138,7 @@ body {
 }
 
 .aside_carousel .carousel-inner {
-	margin: 15px 0;
+	margin:30px 0;
 }
 
 .aside_carousel .carousel-inner {
@@ -283,13 +283,126 @@ body {
 
 article {
 	margin-bottom: 20px;
+	margin-top: 10px;
 }
 
 article ul {
 	list-style-type: circle;
+	margin-bottom: 10px;
 }
 
 article img {
 	min-width: 100%;
 	margin-bottom: 20px;
+}
+
+.witget_news h4 {
+	margin-bottom: 20px;
+}
+
+.witget_news ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.witget_news .more {
+	margin-bottom: 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.witget_news .more:hover {
+	text-decoration: underline;
+}
+
+.wn_item .panel {
+	max-width: 200px;
+}
+
+.wn_item:nth-child(2) .panel {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wn_item:last-child .panel {
+	float: right;
+}
+.main_footer {
+	background-color: #242424;
+	padding: 30px 0 10px;
+	color: #fff;
+	font-size: 16px;
+	font-family: "RobotoRegular", sans-serif;
+}
+
+.logo_wrap {
+	overflow: hidden;
+	height: 65px;
+	margin-top: -10px;
+}
+
+.main_footer strong {
+	margin-top: 5px;
+	display: block;
+	padding-right: ;
+}
+
+.main_footer strong:before {
+	width: 2px;
+	content: '';
+	position: absolute;
+	height: 80%;
+	left: -10px;
+	background-color: #fff;
+	top: 9px;
+}
+
+.footer_phone {
+	font-size: 24px;
+	font-family: "RobotoBold", sans-serif;
+	line-height: 0.8;
+	margin-top: 10px;
+}
+
+.call_back {
+	font-size: 12px;
+	font-weight: normal;
+	border-bottom: #fff 1px dotted;
+	color: #fff;
+}
+
+.call_back:hover {
+	text-decoration: none;
+	border-bottom: #f27937 1px dotted;
+}
+
+.developer {
+	color: #4e4e4e;
+	font-size: 14px;
+	font-family: "RobotoBold", sans-serif;
+	width: 118px;
+	display: inline-block;
+}
+
+.developer:hover,
+.developer:focus {
+	text-decoration: none;
+	color: #4e4e4e;
+}
+
+.modal-dialog {
+	z-index: 10000;
+	max-width: 360px;
+}
+.modal-footer {
+	text-align: center;
+}
+
+.isnohome .navbar {
+	overflow: hidden;
+}
+
+.isnohome .navbar-brand img {
+	width: 65%;
 }

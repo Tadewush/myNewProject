@@ -20,6 +20,15 @@
 		font-size: 13px;
 		padding: 10px;
 	}
+
+	.wn_item .panel {
+	max-width: initial;
+}
+
+.main_footer .col-sm-6 {
+	margin-bottom: 20px;
+	min-height: 80px;
+}
 }
 
 /* Small Devices, Tablets */
